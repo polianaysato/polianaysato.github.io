@@ -1935,6 +1935,12 @@ body.dark footer.footer {
   padding: 30px;
 }
 
+.padding-30-card {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .triangle-left:before {
   content: "";
   width: 0;
