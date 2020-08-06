@@ -41,6 +41,12 @@ Description: Portfolio/CV/Resume HTML Template
   padding: 0;
 }
 
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
 html {
   margin: 0 !important;
   overflow: auto !important;
