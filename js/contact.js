@@ -14,7 +14,7 @@ $(function () {
 
         // if the validator does not prevent form submit
         if (!e.isDefaultPrevented()) {
-            var url = "form/contact.php";
+            var url = "https://script.google.com/macros/s/AKfycbwT9ytDCtHwQXqxY-gPNeBUx3e9DXMI67MeQhMixA/exec";
 
             // POST values in the background the the script URL
             $.ajax({
