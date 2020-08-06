@@ -11,7 +11,7 @@ $(function () {
 
     // when the form is submitted
     $('#contact-form').on('submit', function (e) {
-
+        e.preventDefault();
         // if the validator does not prevent form submit
         if (!e.isDefaultPrevented()) {
             var url = "https://script.google.com/macros/s/AKfycbwT9ytDCtHwQXqxY-gPNeBUx3e9DXMI67MeQhMixA/exec";
