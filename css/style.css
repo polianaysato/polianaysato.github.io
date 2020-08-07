@@ -47,9 +47,7 @@ Description: Portfolio/CV/Resume HTML Template
   border-radius: 100%;
 }
 
-p a .mb-0-click {
-  color:#5E5C7F;
-}
+
 
 html {
   margin: 0 !important;
@@ -92,7 +90,7 @@ img {
 /*                      TYPOGRAPHY                              
 /*=================================================================*/
 h1, h2, h3, h4, h5, h6 {
-  color: #407d9a;
+  color: #615ac4;
   font-family: "Rubik", sans-serif;
   font-weight: 700;
   margin: 20px 0;
@@ -341,7 +339,7 @@ pre {
 header.desktop-header-1 {
   color: #FFF;
   border-right: solid 1px rgba(255, 255, 255, 0.1);
-  background: #407d9a;
+  background: #353353;
   padding: 50px 40px 40px;
   position: fixed;
   left: 0;
@@ -820,7 +818,7 @@ section {
 }
 
 section.home {
-  background: #b3acbd;
+  background: #f5f0fa;
   padding: 0;
   height: 100vh;
   min-height: 100vh;
@@ -833,15 +831,15 @@ section.home .intro {
   z-index: 1;
 }
 section.home .intro h1 {
-  color: #FFF;
+  color: #615ac4;
   font-size: 36px;
 }
 section.home .intro span {
-  color: #fcff3b;
+  color: #FF4C60;
   font-size: 16px;
 }
 section.home .social-icons li a {
-  color: #2f5669;
+  color: #353353;
 }
 section.home.light {
   background: #F9F9FF;
@@ -1422,7 +1420,7 @@ select.portfolio-filter-mobile {
   }
 }
 .mouse-wrapper {
-  color: #2f5669;
+  color: #353353;
   font-size: 14px;
   display: block;
   max-width: 100px;
@@ -1430,11 +1428,11 @@ select.portfolio-filter-mobile {
   text-align: center;
 }
 .mouse-wrapper:hover {
-  color: #fcff3b;
+  color: #FF4C60;
 }
 
 .mouse {
-  border: solid 2px #2f5669;
+  border: solid 2px #353353;
   border-radius: 16px;
   display: block;
   margin: auto;
@@ -1445,10 +1443,10 @@ select.portfolio-filter-mobile {
 }
 
 .mouse:hover {
-  border: solid 2px #fcff3b;
+  border: solid 2px #FF4C60;
 }
 .mouse .wheel {
-  background: #2f5669;
+  background: #353353;
   border-radius: 100%;
   display: block;
   position: absolute;
@@ -1463,7 +1461,7 @@ select.portfolio-filter-mobile {
 }
 
 .mouse .wheel:hover {
-  background: #fcff3b;
+  background: #FF4C60;
 }
 
 
@@ -1868,7 +1866,7 @@ body.dark footer.footer {
   font-size: 21px;
 }
 .social-icons.light li a:hover {
-  color: #fcff3b;
+  color: #FF4C60;
 }
 
 /* === Go to Top === */
