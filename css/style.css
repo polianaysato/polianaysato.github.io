@@ -47,6 +47,10 @@ Description: Portfolio/CV/Resume HTML Template
   border-radius: 100%;
 }
 
+p a .mb-0-click {
+  color:#5E5C7F;
+}
+
 html {
   margin: 0 !important;
   overflow: auto !important;
@@ -88,7 +92,7 @@ img {
 /*                      TYPOGRAPHY                              
 /*=================================================================*/
 h1, h2, h3, h4, h5, h6 {
-  color: #454360;
+  color: #407d9a;
   font-family: "Rubik", sans-serif;
   font-weight: 700;
   margin: 20px 0;
@@ -111,7 +115,7 @@ h4 {
 }
 
 a {
-  color: #FF4C60;
+  color: #fcff3b;
   outline: 0;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -391,10 +395,10 @@ header.desktop-header-1 .vertical-menu li {
   transition: all 0.2s ease-in-out;
 }
 header.desktop-header-1 .vertical-menu li a:hover {
-  color: #FFD15C;
+  color: #fcff3b;
 }
 header.desktop-header-1 .vertical-menu li i {
-  color: #FFD15C;
+  color: #fcff3b;
   margin-right: 20px;
 }
 header.desktop-header-1 .vertical-menu li .switch {
@@ -430,7 +434,7 @@ header.desktop-header-1 .vertical-menu li a.nav-link {
   padding: 0;
 }
 header.desktop-header-1 .vertical-menu li .nav-link.active {
-  color: #FFD15C;
+  color: #fcff3b;
 }
 header.desktop-header-1 .submenu {
   display: none;
@@ -833,7 +837,7 @@ section.home .intro h1 {
   font-size: 36px;
 }
 section.home .intro span {
-  color: #FFF;
+  color: #fcff3b;
   font-size: 16px;
 }
 section.home .social-icons li a {
@@ -1418,7 +1422,7 @@ select.portfolio-filter-mobile {
   }
 }
 .mouse-wrapper {
-  color: #FFF;
+  color: #2f5669;
   font-size: 14px;
   display: block;
   max-width: 100px;
@@ -1426,11 +1430,11 @@ select.portfolio-filter-mobile {
   text-align: center;
 }
 .mouse-wrapper:hover {
-  color: #FFF;
+  color: #fcff3b;
 }
 
 .mouse {
-  border: solid 2px #FFF;
+  border: solid 2px #2f5669;
   border-radius: 16px;
   display: block;
   margin: auto;
@@ -1439,8 +1443,12 @@ select.portfolio-filter-mobile {
   position: relative;
   width: 20px;
 }
+
+.mouse:hover {
+  border: solid 2px #fcff3b;
+}
 .mouse .wheel {
-  background: #FFF;
+  background: #2f5669;
   border-radius: 100%;
   display: block;
   position: absolute;
@@ -1453,6 +1461,11 @@ select.portfolio-filter-mobile {
   -moz-animation: ani-mouse 2s linear infinite;
   animation: ani-mouse 2s linear infinite;
 }
+
+.mouse .wheel:hover {
+  background: #fcff3b;
+}
+
 
 .circle {
   border-radius: 100%;
@@ -1855,7 +1868,7 @@ body.dark footer.footer {
   font-size: 21px;
 }
 .social-icons.light li a:hover {
-  color: #FFD15C;
+  color: #fcff3b;
 }
 
 /* === Go to Top === */
@@ -1977,7 +1990,7 @@ body.dark footer.footer {
 }
 
 .text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6 {
-  color: #FFF;
+  color: #5E5C7F;
 }
 
 .videoWrapper {
